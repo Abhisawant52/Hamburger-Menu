@@ -1,0 +1,107 @@
+body{
+	background-color:#8fd9a8;
+	font-family: 'Open Sans', sans-serif;
+}
+#menu{
+	//background-color:#ea2c62;
+	width:35px;
+	height:30px;
+	margin:30px;
+	cursor:pointer;
+}
+.bar{
+	height: 5px;
+	width: 100%;
+	background-color: #fb3640;
+	display: block;
+	border-radius: 5px;
+	transition: 0.5s ease;
+}
+#bar1{
+	transform: translateY(-4px);
+}
+#bar3{
+	transform: translateY(4px);
+}
+.nav li a{
+	color: #fff;
+	text-decoration: none;
+}
+.nav li a:hover{
+	font-weight: bold;
+}
+.nav li{
+	list-style: none;
+	padding: 16px 0;
+}
+.nav{
+	padding: 0;
+	margin:15px 10px 0 2px;
+	transition: 0.5s ease;
+	display: none;
+}
+.menu-bg, .Menu-Bar{
+	top:0;
+	left:0;
+	position:absolute;
+}
+.menu-bg{
+	z-index: 1;
+	width: 0;
+	height: 0;
+	margin: 30px 0 20px 20px;
+	background: radial-gradient(circle,#ff7b54,#f55c47);
+	border-radius: 50%;
+	transition: 0.3s ease;
+}
+.Menu-Bar{
+	z-index:2;
+}
+.change-bg{
+	width:550px;
+	height:550px;
+	transform: translate(-60%,-30%);
+}
+.change .bar {
+	background-color:white;
+} 
+.change #bar1 {
+	transform:translateY(4px)rotateZ(-45deg);
+} 
+.change #bar3 {
+	transform:translateY(-6px) rotate(45deg);
+} 
+.change #bar2 {
+	opacity:0;
+}
+.change .nav{
+	display:block;
+}
+
+
+/*Page design css*/
+.title{
+	font-size:30px;
+	margin:10px 30px;
+	color:white;
+	font-weight:bold;
+	float:right;
+}
+hr{
+	color:#FFF;
+	width:100%;
+}
+
+#about {
+	padding: 50px;
+	text-align: center;
+}
+#about h2 {
+	margin: 30px 0;
+	color:black;
+}
+
+.social a {
+	color:black;
+	margin: 0 5px;
+}
