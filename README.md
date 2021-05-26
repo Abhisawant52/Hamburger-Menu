@@ -1,4 +1,4 @@
-# Hamburger-Men
+# Hamburger-Menu
 ![Screenshot](preview.gif)
 
 A basic Hamburger Menu Animation using HTML, CSS and JavaScript.
